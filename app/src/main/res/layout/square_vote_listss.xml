@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_white"
+    android:orientation="vertical" >
+
+    <!-- 头部 -->
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/top_bar_square" >
+
+        <ImageView
+            android:id="@id/back"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back"
+            android:paddingRight="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="投票"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@id/right_button"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/right_button" />
+    </RelativeLayout>
+    <!-- 隐藏的四个按钮 -->
+    <LinearLayout
+        android:id="@id/select_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="4dip" >
+
+        <ImageView
+            android:id="@id/vote_voted_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/vote_voted_button" />
+
+        <ImageView
+            android:id="@id/vote_praise_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/vote_praise_button" />
+
+        <ImageView
+            android:id="@id/vote_favorite_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/vote_favorite_button" />
+
+        <ImageView
+            android:id="@id/vote_replay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/vote_replay_button" />
+    </LinearLayout>
+    <TabHost
+        android:id="@+id/tab_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tab_widget_bg" />
+            <LinearLayout
+                android:id="@id/vote_message_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dip" >
+                <ImageView
+                    android:id="@id/message_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:src="@drawable/message_icon" />
+
+                <TextView
+                    android:id="@id/message_prompt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="20dip"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:textSize="14sp"
+                    android:text="本期共有0个创意参与投票,您拥有0票"
+                    android:textColor="@color/green"
+                    android:textStyle="bold" />
+            </LinearLayout>
+			<View 
+			    android:id="@id/divider"
+			    android:layout_height="1dip"
+			    android:layout_width="match_parent"
+			    android:background="@color/green"
+			    />
+            <com.cofco.view.MyViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <!-- 隐藏 -->
+
+            <FrameLayout
+                android:clipChildren="false"
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" >
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

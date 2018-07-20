@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/top_bar_square" >
+
+        <ImageView
+            android:id="@id/back"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back"
+            android:paddingRight="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/my_favorite"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/layout_fill_wrap"
+        android:alpha="0.7"
+        android:background="@color/text_white" >
+
+        <RelativeLayout
+            android:id="@id/center_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:alpha="0.8"
+            android:background="@drawable/search_bg" >
+
+            <EditText
+                android:id="@id/center_search_edit"
+                style="@style/layout_fill_wrap"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/search_hint"
+                android:padding="4dip"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@id/center_search_button"
+                style="@style/layout_wrap_wrap"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/search_icon" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.cofco.view.ScrollBackListView
+        android:id="@id/list_my_favorite"
+        style="@style/fill_fill"
+        android:alpha="0.7"
+        android:background="@color/text_white"
+        android:descendantFocusability="blocksDescendants"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/text_grey"
+        android:dividerHeight="0.5dip"
+        android:listSelector="@drawable/list_selector" >
+    </com.cofco.view.ScrollBackListView>
+
+</LinearLayout>

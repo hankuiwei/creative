@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <ImageView
+        android:id="@+id/right_corver"
+        android:layout_width="25dip"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:background="@color/transparent_background"
+        android:visibility="invisible" />
+    <!--  -->
+
+    <RelativeLayout
+        android:id="@+id/layout_list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="58dip"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/left_corver"
+        android:layout_toRightOf="@id/right_corver"
+        android:background="@drawable/center_linebg" >
+
+        <ImageView
+            android:id="@id/list_item_image"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/list__new_material" />
+
+        <TextView
+            android:id="@id/list_item_title"
+            style="@style/layout_fill_wrap"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="8dip"
+            android:layout_toRightOf="@id/list_item_image"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="关于新产品的发布"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/creative_item_title_font_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:adjustViewBounds="true"
+            android:background="@drawable/arrow"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@id/list_item_content"
+            style="@style/layout_wrap_wrap"
+            android:layout_below="@id/list_item_title"
+            android:layout_marginLeft="4dip"
+            android:layout_toLeftOf="@id/arrow"
+            android:layout_toRightOf="@id/list_item_image"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="新食物的做法，里面有很多面有很面有很面有很"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/creative_item_content_font_size" />
+
+        <TextView
+            android:id="@id/list_item_time"
+            style="@style/layout_wrap_wrap"
+            android:layout_below="@id/list_item_content"
+            android:layout_marginLeft="4dip"
+            android:layout_toRightOf="@id/list_item_image"
+            android:text="2013-11-12 10:34"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/creative_item_date_font_size" />
+
+        <LinearLayout
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/list_item_time"
+            android:layout_marginTop="2dip"
+            android:layout_toRightOf="@id/list_item_time"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@id/layout_replay_icon1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:layout_weight="0.2" />
+
+            <RelativeLayout
+                android:id="@id/layout_replay_icon"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@id/list_item_time"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@id/creative_replay_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="center"
+                    android:src="@drawable/replay" />
+
+                <TextView
+                    android:id="@id/replay_num"
+                    style="@style/layout_wrap_wrap"
+                    android:layout_alignTop="@id/creative_replay_icon"
+                    android:layout_toRightOf="@id/creative_replay_icon"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:numeric="integer"
+                    android:paddingLeft="2dip"
+                    android:text="14"
+                    android:textColor="@color/text_red"
+                    android:textSize="@dimen/creative_item_date_font_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/layout_praise_icon"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/list_item_content"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@id/layout_replay_icon"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@id/praise_num"
+                    style="@style/layout_wrap_wrap"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/creative_praise_icon"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:numeric="integer"
+                    android:text="14"
+                    android:textColor="@color/text_red"
+                    android:textSize="@dimen/creative_item_date_font_size" />
+
+                <ImageView
+                    android:id="@id/creative_praise_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/praise" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/layout_favorite_icon"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/list_item_content"
+                android:layout_marginTop="1dip"
+                android:layout_toRightOf="@id/layout_praise_icon"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@id/creative_favorite_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/favorite" />
+
+                <TextView
+                    android:id="@id/favorite_num"
+                   	android:layout_width="match_parent"
+                   	android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/creative_favorite_icon"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:numeric="integer"
+                    android:text="14444"
+                    android:textColor="@color/text_red"
+                    android:textSize="@dimen/creative_item_date_font_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/left_corver"
+        android:layout_width="32dip"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent_background"
+        android:visibility="invisible" />
+
+</RelativeLayout>

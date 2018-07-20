@@ -1,0 +1,4 @@
+#Thu Jul 19 11:38:10 CST 2018
+base.0=F\:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=F\:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

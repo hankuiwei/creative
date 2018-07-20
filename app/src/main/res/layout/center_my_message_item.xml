@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_fill_wrap"
+    android:background="@color/text_white"
+    android:alpha="0.7"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@id/center_message_img"
+        style="@style/layout_wrap_wrap"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="12dip"
+        android:src="@drawable/wait_review" />
+
+    <TextView
+        android:id="@id/center_message_content"
+        style="@style/layout_fill_wrap"
+        android:layout_marginTop="4dip"
+        android:layout_toRightOf="@id/center_message_img"
+        android:paddingRight="10dip"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="zoom你好，您的《产品大全》创意正在审核之中,24小时之内会揭晓" />
+
+    <TextView
+        android:id="@id/center_message_time"
+        style="@style/layout_fill_wrap"
+        android:layout_below="@id/center_message_content"
+        android:layout_toRightOf="@id/center_message_img"
+        android:layout_marginBottom="10dip"
+        android:text="2013-10-12 19:23:12" />
+
+</RelativeLayout>

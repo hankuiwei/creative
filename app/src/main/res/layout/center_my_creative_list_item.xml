@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/layout_creative_detail"
+        style="@style/layout_fill_wrap"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="12dip"
+        android:alpha="0.7"
+        android:background="@color/text_white" >
+
+        <ImageView
+            android:layout_marginTop="8dip"
+            android:id="@id/center_creative_image"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:background="@drawable/product_creative_detail" />
+
+        <TextView
+            android:id="@id/center_creative_title"
+            style="@style/layout_fill_wrap"
+            android:layout_alignTop="@id/center_creative_image"
+            android:layout_toRightOf="@id/center_creative_image"
+            android:padding="4dip"
+            android:text="酒之魂"
+            android:textColor="@color/black"
+            android:textSize="16dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/center_collect_content"
+            style="@style/layout_fill_wrap"
+            android:layout_below="@id/center_creative_image"
+            android:layout_marginLeft="4dip"
+            android:text="聊天中提到很多事情"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@id/center_collect_image_list"
+            android:layout_marginTop="4dip"
+            android:layout_marginBottom="4dip"
+            style="@style/layout_fill_wrap"
+            android:visibility="gone"
+            android:layout_below="@id/center_collect_content"
+            android:orientation="horizontal"   >
+            <ImageView 
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:layout_marginLeft="4dip"
+                android:id="@id/center_collect_item_image01"
+                android:adjustViewBounds="true"
+                />
+            <ImageView 
+               android:id="@id/center_collect_item_image02"
+               android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:adjustViewBounds="true"
+                />
+            <ImageView 
+                android:id="@id/center_collect_item_image03"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:adjustViewBounds="true"
+                />
+            <ImageView 
+                android:id="@id/center_collect_item_image04"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@id/center_creative_time_title"
+            style="@style/layout_wrap_wrap"
+            android:layout_below="@id/center_collect_image_list"
+            android:layout_marginLeft="4dip"
+            android:text="收藏于:"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@id/center_collect_date"
+            style="@style/layout_wrap_wrap"
+            android:layout_below="@id/center_collect_image_list"
+            android:layout_toRightOf="@id/center_creative_time_title"
+            android:text="2013-11-23 10:23"
+            android:textSize="10sp" />
+		<ImageView style="@style/layout_wrap_wrap"
+		    android:visibility="invisible"
+		    android:id="@id/center_collect_vote_image"
+		    android:src="@drawable/creative_detail_vote_selector"
+		    android:layout_toLeftOf="@id/center_collect_votable_text"
+		    android:layout_below="@id/center_collect_image_list"
+		    />
+		<TextView 
+		    android:id="@id/center_collect_votable_text"
+		    style="@style/layout_wrap_wrap"
+		    android:layout_below="@id/center_collect_image_list"
+		    android:layout_alignParentRight="true"
+		    android:text="@string/votable_text"
+		    android:gravity="right"
+		    android:visibility="invisible"
+		    android:textColor="@color/text_red"
+		    />
+    </RelativeLayout>
+</LinearLayout>

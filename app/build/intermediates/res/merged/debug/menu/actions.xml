@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu1"
+        android:actionLayout="@layout/menu_item_left1"
+      />
+    <item android:id="@+id/menu2"
+        android:icon="@drawable/bg_left_idea_item3"
+        />
+    <item android:id="@+id/menu3"
+        android:icon="@drawable/bg_left_idea_item4"
+     />
+    <item android:title="产品创新"/>
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/top_bar_square" >
+
+        <ImageView
+            android:id="@id/back"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back"
+            android:paddingRight="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/my_innovation"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <com.cofco.view.ScrollBackListView
+        android:id="@id/list_my_innovation"
+        style="@style/fill_fill"
+        android:layout_width="match_parent"
+        android:alpha="0.7"
+        android:background="@color/text_white"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/text_grey"
+        android:dividerHeight="0.5dip"
+        android:listSelector="@drawable/list_selector" >
+    </com.cofco.view.ScrollBackListView>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cofco"
+    android:versionCode="1"
+    android:versionName="1.56" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cofco.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.cofco.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Animation.Activity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cofco.SquareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.SquareHotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.SquareRankingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.VoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.CenterFeedBackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.CenterFavoriteActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.cofco.CreativeDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.CommentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.cofco.CenterCreativeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.ReplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.InnovationDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cofco.ShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+    </application>
+
+</manifest>

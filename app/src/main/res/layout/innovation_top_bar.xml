@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_bar_square"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@id/innovation_top_title"
+        style="@style/layout_wrap_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:text="@string/innovation_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@id/submit"
+        style="@style/layout_wrap_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:padding="10dip"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="14dip"
+        android:src="@drawable/flight" />
+
+</RelativeLayout>

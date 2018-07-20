@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popmenu_width">160.0sp</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+    <dimen name="creative_item_content_font_size">8dip</dimen>
+    <dimen name="creative_item_date_font_size">8dip</dimen>
+    <dimen name="creative_item_title_font_size">10dip</dimen>
+    
+    <dimen name="good_spinner_jk">7dp</dimen>
+    <dimen name="idea_square_pointer_height">15dp</dimen>
+    
+</resources>

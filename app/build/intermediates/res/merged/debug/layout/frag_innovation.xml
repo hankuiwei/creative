@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/top_bar_square" >
+
+        <ImageView
+            android:id="@id/back"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/back"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@id/feedback_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/innovation_title"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@id/submit"
+            style="@style/layout_wrap_wrap"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/flight"
+            android:padding="8dip"
+            android:text="提交" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@id/layout_innovation_second_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bt_topbar_normal" >
+
+            <TextView
+                android:id="@id/menu_item_left_selected_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="创意类型"   
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@id/menu_item_left_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:textColor="@android:color/darker_gray"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/layout_innovation_second_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bt_topbar_normal" >
+
+            <ImageView
+                android:id="@id/menu_item_right_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:textColor="@android:color/darker_gray"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/menu_item_right_selected_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="创意性质"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@id/creative_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:alpha="0.7"
+        android:background="@drawable/white_bg"
+        android:hint="起个标题吧..."
+        android:padding="8dip"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@id/creative_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="0dip"
+        android:alpha="0.7"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/white_bg"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/idea_hint"
+        android:padding="8dip"
+        android:textColor="@color/black"
+        android:textSize="14dp" >
+
+        <requestFocus android:layout_width="wrap_content" />
+    </EditText>
+
+    <LinearLayout
+        android:id="@id/layout_creative_thumb"
+        style="@style/layout_fill_wrap"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:alpha="0.7"
+        android:background="@drawable/white_bg" >
+
+        <ImageView
+            android:id="@id/creative_thumb01"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bg_idea" />
+
+        <ImageView
+            android:id="@id/creative_thumb02"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bg_idea"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@id/creative_thumb03"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bg_idea"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@id/creative_thumb04"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bg_idea"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button_bg" >
+
+            <RadioGroup
+                android:id="@id/radio_group_public_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="8dip"
+                android:paddingTop="8dip" >
+
+                <RadioButton
+                    android:id="@id/radio_public_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_public_selector"
+                    android:button="@null"
+                    android:paddingBottom="4dip"
+                    android:paddingTop="4dip" />
+
+                <RadioButton
+                    android:id="@id/radio_no_public_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_no_public_button_selector"
+                    android:button="@null"
+                    android:paddingBottom="4dip"
+                    android:paddingTop="4dip" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button_bg" >
+
+            <RadioGroup
+                android:id="@id/radio_group_original_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@id/radio_original_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_original_button_selector"
+                    android:button="@null"
+                    android:paddingBottom="4dip"
+                    android:paddingTop="4dip" />
+
+                <RadioButton
+                    android:id="@id/radio_no_original_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_no_original_button_selector"
+                    android:button="@null"
+                    android:paddingBottom="4dip"
+                    android:paddingTop="4dip" />
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="50dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/layout_fill_wrap"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="如果您有完善的想法,请登录网址"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                style="@style/layout_fill_wrap"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="http://idea.cofco.com"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                style="@style/layout_fill_wrap"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="提交标准创意"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

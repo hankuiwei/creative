@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+	 <RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="40dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/top_bar_square"
+  			>
+            <ImageView
+                android:id="@id/back"
+                android:layout_marginLeft="10dip"
+                style="@style/layout_wrap_wrap"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="10dip"
+                android:background="@drawable/back" />
+  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:layout_centerVertical="true"
+        		android:layout_centerHorizontal="true"
+        		android:text="@string/creative_detail"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</RelativeLayout>
+    <RelativeLayout
+        android:id="@id/layout_creative_detail"
+        style="@style/layout_fill_wrap"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:alpha="0.7"
+        android:background="@color/text_white" >
+
+        <ImageView
+            android:id="@id/creative_detail_image"
+            android:layout_width="32dip"
+            android:layout_marginLeft="8dip"
+            android:layout_height="32dip"
+           />
+
+        <TextView
+            android:id="@id/creative_detail_title"
+            style="@style/layout_fill_wrap"
+            android:layout_alignTop="@id/creative_detail_image"
+            android:layout_toRightOf="@id/creative_detail_image"
+            android:padding="4dip"
+            android:text=""
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+          <TextView
+            android:id="@id/creative_detail_content"
+            style="@style/layout_fill_wrap"
+            android:layout_below="@id/creative_detail_title"
+            android:layout_marginLeft="8dip"
+            android:textColor="@color/black" />
+
+
+        <LinearLayout
+            android:id="@id/layout_creative_detail_picture"
+            android:visibility="gone"
+            style="@style/layout_fill_wrap"
+            android:layout_marginTop="4dip"
+            android:layout_marginBottom="4dip"
+            android:layout_below="@id/creative_detail_content"
+            android:orientation="horizontal" >
+             <ImageView 
+                android:id="@id/creative_item_image01"
+                android:layout_width="72dip"
+                android:layout_height="48dip"
+                android:layout_marginLeft="8dip"
+                android:visibility="gone"
+                android:adjustViewBounds="true"
+                />
+            <ImageView 
+               android:id="@id/creative_item_image02"
+               android:layout_width="72dip"
+                android:layout_height="48dip"
+                android:adjustViewBounds="true"
+                   android:visibility="gone"
+                />
+            <ImageView 
+                android:id="@id/creative_item_image03"
+                android:layout_width="72dip"
+                android:layout_height="48dip"
+                android:adjustViewBounds="true"
+                 android:visibility="gone"
+                />
+            <ImageView 
+                android:id="@id/creative_item_image04"
+                android:layout_width="72dip"
+                android:layout_height="48dip"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/creative_detail_time_title"
+            style="@style/layout_wrap_wrap"
+            android:layout_below="@id/layout_creative_detail_picture"
+            android:layout_marginLeft="8dip"
+            android:text="发表于:"
+            android:layout_marginBottom="4dip"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@id/creative_detail_date"
+            style="@style/layout_fill_wrap"
+            android:layout_below="@id/layout_creative_detail_picture"
+            android:layout_toRightOf="@id/creative_detail_time_title"
+            android:layout_marginBottom="4dip"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@id/creative_detail_vote_bar"
+            style="@style/layout_fill_wrap"
+            android:layout_below="@id/creative_detail_date"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@id/layout_detail_vote"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                
+                android:layout_weight="1.5" >
+
+                <ImageView
+                    android:id="@id/creative_detail_vote_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="matrix"
+                    android:background="@drawable/creative_detail_vote_selector" />
+
+                <TextView
+                    android:id="@id/creative_detail_votable_text"
+                    style="@style/layout_fill_wrap"
+                    android:layout_toRightOf="@id/creative_detail_vote_image"
+                    android:text="@string/un_votable"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_grey" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/layout_detail_replay"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@id/creative_detail_replay_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="matrix"
+                    android:src="@drawable/creative_detail_replay_selector" />
+
+                <TextView
+                    android:id="@id/creative_detail_replay_text"
+                    style="@style/layout_wrap_wrap"
+                    android:layout_toRightOf="@id/creative_detail_replay_image"
+                    android:text="@string/votable_num"
+                    android:textColor="@color/text_red" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/layout_detail_praise"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@id/creative_detail_praise_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/creative_detail_praise_selector" />
+
+                <TextView
+                    android:id="@id/creative_detail_praise_text"
+                    style="@style/layout_wrap_wrap"
+                    android:layout_toRightOf="@id/creative_detail_praise_image"
+                    android:text="@string/votable_num"
+                    android:textColor="@color/text_red" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/layout_detail_favorite"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6" >
+
+                <ImageView
+                    android:id="@id/creative_detail_favorite_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/creative_detail_favorite_selector" />
+
+                <TextView
+                    android:id="@id/creative_detail_favorite_text"
+                    style="@style/layout_wrap_wrap"
+                    android:layout_toRightOf="@id/creative_detail_favorite_image"
+                    android:textColor="@color/text_red"
+                    android:text="@string/votable_num" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dip"
+        />
+	<com.cofco.view.ScrollBackListView 
+	    android:alpha="0.7"
+	    android:id="@id/creative_detail_list"
+	    android:background="@color/text_white"
+	    style="@style/layout_fill_wrap"
+	    android:layout_marginLeft="4dip"
+	    android:layout_marginRight="4dip"
+	    />
+</LinearLayout>

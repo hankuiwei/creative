@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="creative_item_content_font_size">8dip</dimen>
+    <dimen name="creative_item_date_font_size">8dip</dimen>
+    <dimen name="creative_item_title_font_size">10dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+    <dimen name="popmenu_width">175.0dip</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+</resources>

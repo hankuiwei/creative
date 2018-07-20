@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/all_bg">
+     <com.cofco.view.ScrollBackListView
+           android:id="@id/new_vote_list"
+           style="@style/fill_fill"
+           android:fastScrollEnabled="false"
+           android:dividerHeight="1dp"
+           android:divider="@null"
+           android:listSelector="@drawable/list_selector"
+           android:cacheColorHint="@android:color/transparent" >
+       </com.cofco.view.ScrollBackListView>
+</RelativeLayout>

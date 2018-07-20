@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_vote_list.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\history_vote_list.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading_more.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\loading_more.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_my_message.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_my_message.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_bar.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\bottom_bar.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vote_history_list_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\vote_history_list_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_my_message_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_my_message_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_list.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\pull_to_refresh_list.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_popup.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\title_popup.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_square.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\frag_square.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment3.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\fragment3.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_about_us.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_about_us.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vote_new_list_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\vote_new_list_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_idea_list.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\square_idea_list.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_item_left1.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\menu_item_left1.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_top_bar.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\home_top_bar.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment2.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\fragment2.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_top_bar.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_top_bar.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_button_example.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\single_button_example.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_collect_list_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_collect_list_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_vote_list.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\square_vote_list.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_setting.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_setting.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_top_bar.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\square_top_bar.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_my_favorite.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_my_favorite.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_square_other_ranking.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\frag_square_other_ranking.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_vote_listss.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\square_vote_listss.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_comment.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_comment.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\creative_detial_replay_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\creative_detial_replay_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popmenu_text.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\popmenu_text.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_feedback.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_feedback.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\softupdate_progress.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\softupdate_progress.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialogview.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\dialogview.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\square_ranking_bar.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\square_ranking_bar.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_vote_list.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\new_vote_list.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\creative_detail_replay_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\creative_detail_replay_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\tab.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_home.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\frag_home.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_idea.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_idea.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_center.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\frag_center.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_innovation.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_innovation.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popmenu.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\popmenu.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\creative_detial.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\creative_detial.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_bg.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\share_bg.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\fragment1.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pomenu_text_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\pomenu_text_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_my_creative.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_my_creative.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\innovation_top_bar.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\innovation_top_bar.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_my_info.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_my_info.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\share_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_square_ranking_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\frag_square_ranking_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_innovation.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\frag_innovation.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item2.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\list_item2.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pomenu_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\pomenu_item.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\layout\\center_my_creative_list_item.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\layout\\center_my_creative_list_item.xml"
+    }
+]

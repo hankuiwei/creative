@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="login_logo" type="id"></item>
+    <item name="user_name" type="id"></item>
+    <item name="square_title" type="id"></item>
+    <item name="back" type="id"></item>
+    <item name="user_password" type="id"></item>
+    <item name="center_user_name" type="id"></item>
+    <item name="bottom_main_bg" type="id"></item>
+    <item name="layout_bottom_main" type="id"></item>
+    <item name="layout_login_username" type="id"></item>
+    <item name="innovation_top_title" type="id"></item>
+    <item name="login_icon" type="id"></item>
+    <item name="login_icon1" type="id"></item>
+    <item name="layout_innovation_second_left" type="id"></item>
+    <item name="layout_innovation_second_right" type="id"></item>
+    <item name="layout_creative_thumb" type="id"></item>
+    <item name="menu_item_left_selected" type="id"></item>
+    <item name="menu_item_right_selected" type="id"></item>
+    <item name="login_divider" type="id"></item>
+    <item name="layout_login_password" type="id"></item>
+    <item name="creative_title" type="id"></item>
+    <item name="creative_content" type="id"></item>
+    <item name="submit" type="id"></item>
+    <item name="layout_login_button" type="id"></item>
+    <item name="confirm_button" type="id"></item>
+    <item name="list" type="id"></item>
+    <item name="creative_replay_icon" type="id"></item>
+    <item name="list_item_time" type="id"/>
+    <item name="creative_thumb" type="id"/>
+    <item name="list_item_image" type="id"/>
+    <item name="list_item_content" type="id"/>
+    <item name="list_item_title" type="id"/>
+    <item name="square_product_button" type="id"/>
+    <item name="square_technology_button" type="id"/>
+    <item name="square_market_button" type="id"/>
+    <item name="square_other_button" type="id"/>
+    <item name="square_pack_button" type="id"/>
+    <item name="square_vote_button" type="id"/>
+    <item name="square_idea_title" type="id"/>
+    <item name="square_idea_more" type="id"/>
+    <item name="square_first_icon" type="id"/>
+    <item name="square_golden_cup" type="id"/>
+    <item name="square_detail_check" type="id"/>
+    <item name="square_golden_title" type="id"/>
+    <item name="square_golden_time" type="id"/>
+    <item name="layout_replay_icon" type="id"/>
+    <item name="layout_favorite_icon" type="id"/>
+    <item name="layout_praise_icon" type="id"/>
+    <item name="creative_favorite_icon" type="id"/>
+    <item name="creative_praise_icon" type="id"/>
+    <item name="favorite_num" type="id"/>
+    <item name="center_user_image" type="id"/>
+    <item name="center_user_point_title" type="id"/>
+    <item name="center_user_point" type="id"/>
+    <item name="center_user_idea_title" type="id"/>
+    <item name="center_user_innovation_num" type="id"/>
+    <item name="center_user_favorite_icon" type="id"/>
+    <item name="center_user_favorite_title" type="id"/>
+    <item name="center_user_message_icon" type="id"/>
+    <item name="center_user_message" type="id"/>
+    <item name="center_user_message_title" type="id"/>
+    <item name="center_user_innovation_icon" type="id"/>
+    <item name="center_user_innovation_title" type="id"/>
+    <item name="center_user_setting_icon" type="id"/>
+    <item name="center_user_setting_title" type="id"/>
+    <item name="center_user_exit_icon" type="id"/>
+    <item name="center_user_exit_title" type="id"/>
+    <item name="center_message_list" type="id"/>
+    <item name="center_message_img" type="id"/>
+    <item name="layout_user_exit" type="id"/>
+    <item name="layout_user_setting" type="id"/>
+    <item name="layout_user_message" type="id"/>
+    <item name="layout_user_favorite" type="id"/>
+    <item name="layout_user_info" type="id"/>
+    <item name="center_message_content" type="id"/>
+    <item name="center_my_msg" type="id"/>
+    <item name="center_idea_feedback_icon" type="id"/>
+    <item name="center_idea_feedback_title" type="id"/>
+    <item name="center_about_us_icon" type="id"/>
+    <item name="center_about_us_title" type="id"/>
+    <item name="center_app_update_icon" type="id"/>
+    <item name="center_app_update_title" type="id"/>
+    <item name="center_message_time" type="id"/>
+    <item name="praise_num" type="id"/>
+    <item name="replay_num" type="id"/>
+    <item name="back_right" type="id"/>
+    <item name="square_search_edit" type="id"/>
+    <item name="square_search_button" type="id"/>
+    <item name="layout_ranking_button" type="id"/>
+    <item name="square_golden_detail_check" type="id"/>
+    <item name="square_silver_cup" type="id"/>
+    <item name="square_silver_detail_check" type="id"/>
+    <item name="square_broze_detail_check" type="id"/>
+    <item name="square_top_bar" type="id"/>
+    <item name="square_circle_icon" type="id"/>
+    <item name="square_search_bar" type="id"/>
+    <item name="layout_silver_ranking" type="id"/>
+    <item name="layout_golden_ranking" type="id"/>
+    <item name="layout_broze_ranking" type="id"/>
+    <item name="layout_square_icon" type="id"/>
+    <item name="layout_ranking" type="id"/>
+    <item name="square_bronze_icon" type="id"/>
+    <item name="square_bronze_title" type="id"/>
+    <item name="square_silver_title" type="id"/>
+    <item name="square_silver_time" type="id"/>
+    <item name="square_bronze_time" type="id"/>
+    <item name="list_fragment2" type="id"/>
+    <item name="list_fragment3" type="id"/>
+    <item name="list_fragment1" type="id"/>
+    <item name="list_my_favorite" type="id"/>
+    <item name="square_other_creative" type="id"/>
+    <item name="square_other_image" type="id"/>
+    <item name="square_other_title" type="id"/>
+    <item name="square_other_time" type="id"/>
+    <item name="square_other_detail_check" type="id"/>
+    <item name="square_date_text" type="id"/>
+    <item name="square_other_list" type="id"/>
+    <item name="square_golden_no_text" type="id"/>
+    <item name="square_creative_ranking_title" type="id"/>
+    <item name="layout_square_ranking_content" type="id"/>
+    <item name="layout_ranking_title" type="id"/>
+    <item name="layout_square_ranking_title" type="id"/>
+    <item name="square_ranking_title" type="id"/>
+    <item name="square_no_other_text" type="id"/>
+    <item name="square_no_ranking_text" type="id"/>
+    <item name="layout_no_ranking" type="id"/>
+    <item name="layout_creative_detail" type="id"/>
+    <item name="creative_detail_image" type="id"/>
+    <item name="creative_detail_title" type="id"/>
+    <item name="creative_detail_content" type="id"/>
+    <item name="layout_creative_detail_picture" type="id"/>
+    <item name="creative_detail_time_title" type="id"/>
+    <item name="creative_detail_date" type="id"/>
+    <item name="creative_detail_horilistview" type="id"/>
+    <item name="creative_detail_vote_bar" type="id"/>
+    <item name="creative_detail_votable" type="id"/>
+    <item name="creative_detail_replay" type="id"/>
+    <item name="creative_detail_praise" type="id"/>
+    <item name="creative_detail_favorite" type="id"/>
+    <item name="creative_detail_replay_text" type="id"/>
+    <item name="creative_detail_praise_text" type="id"/>
+    <item name="creative_detail_favorite_text" type="id"/>
+    <item name="creative_detail_votable_text" type="id"/>
+    <item name="creative_detail__replay_user_image" type="id"/>
+    <item name="creative_detail__replay_user_name" type="id"/>
+    <item name="creative_detail_replay_content" type="id"/>
+    <item name="creative_detail_replay_time" type="id"/>
+    <item name="square_vote_creative_image" type="id"/>
+    <item name="square_vote_creative_title" type="id"/>
+    <item name="square_vote_creative_time" type="id"/>
+    <item name="square_vote_image" type="id"/>
+    <item name="feedback_title" type="id"/>
+    <item name="center_feedback_content" type="id"/>
+    <item name="layout_center_my_info" type="id"/>
+    <item name="layout_center_favorite" type="id"/>
+    <item name="layout_center_message" type="id"/>
+    <item name="layout_center_my_innovation" type="id"/>
+    <item name="layout_center_setting" type="id"/>
+    <item name="layout_center_exit" type="id"/>
+    <item name="center_user_idea_num" type="id"/>
+    <item name="layout_center_feedback" type="id"/>
+    <item name="layout_center_about_us" type="id"/>
+    <item name="layout_center_app_update" type="id"/>
+    <item name="center_collect_vote" type="id"/>
+    <item name="center_collect_vote_image" type="id"/>
+    <item name="center_collect_vota" type="id"/>
+    <item name="center_collect_votable_text" type="id"/>
+    <item name="center_creative_image" type="id"/>
+    <item name="center_creative_title" type="id"/>
+    <item name="center_collect_content" type="id"/>
+    <item name="center_collect_list" type="id"/>
+    <item name="center_creative_time_title" type="id"/>
+    <item name="center_collect_date" type="id"/>
+    <item name="center_favorite_image" type="id"/>
+    <item name="center_collect_image_list" type="id"/>
+    <item name="center_collect_item_image01" type="id"/>
+    <item name="center_collect_item_image02" type="id"/>
+    <item name="center_collect_item_image03" type="id"/>
+    <item name="center_collect_item_image04" type="id"/>
+    <item name="list_my_innovation" type="id"/>
+    <item name="center_search_bar" type="id"/>
+    <item name="center_search_edit" type="id"/>
+    <item name="center_search_button" type="id"/>
+    <item name="creative_item_image01" type="id"/>
+    <item name="creative_item_image02" type="id"/>
+    <item name="creative_item_image03" type="id"/>
+    <item name="creative_item_image04" type="id"/>
+    <item name="creative_detail_replay_image" type="id"/>
+    <item name="creative_detail_vote_image" type="id"/>
+    <item name="creative_detail_favorite_image" type="id"/>
+    <item name="creative_detail_praise_image" type="id"/>
+    <item name="creative_detail_list" type="id"/>
+    <item name="center_comment_content" type="id"/>
+    <item name="new_vote_list" type="id"/>
+    <item name="history_vote_list" type="id"/>
+    <item name="creative_thumb01" type="id"/>
+    <item name="creative_thumb02" type="id"/>
+    <item name="creative_thumb03" type="id"/>
+    <item name="creative_thumb04" type="id"/>
+    <item name="layout_bronze_ranking" type="id" />
+    <item name="center_current_version" type="id" />
+    <item name="layout_detail_favorite" type="id" />
+    <item name="layout_detail_praise" type="id" />
+    <item name="layout_detail_replay" type="id" />
+    <item name="layout_detail_vote" type="id" />
+    <item name="layout_replay_icon1" type="id" />
+    <item name="left_corver" type="id" />
+    <item name="menu_item_left_selected_text" type="id" />
+    <item name="menu_item_right_selected_text" type="id" />
+    <item name="banner_image" type="id" />
+    <item name="radio_left_button" type="id" />
+    <item name="radio_group_public_button" type="id" />
+    <item name="radio_public_button" type="id" />
+    <item name="radio_no_public_button" type="id" />
+    <item name="radio_group_original_button" type="id" />
+    <item name="radio_original_button" type="id" />
+    <item name="radio_no_original_button" type="id" />
+    <item name="fragment_message_notification_num" type="id" />
+    <item name="fragment_innovation_new" type="id" />
+    <item name="arrow" type="id" />
+    <item name="fragment_center_message_num" type="id" />
+    <item name="fragment_message_notification_text" type="id" />
+    <item name="frame_layout_num" type="id" />
+    <item name="layout_fragment_center_message_num" type="id" />
+    <item name="dialog_item" type="id" />
+    <item name="dialog_title" type="id" />
+    <item name="pop_list_view" type="id" />
+    <item name="vote_voted_button" type="id" />
+    <item name="vote_praise_button" type="id" />
+    <item name="vote_favorite_button" type="id" />
+    <item name="vote_replay_button" type="id" />
+    <item name="show_selected_button" type="id" />
+    <item name="select_title_bar" type="id" />
+    <item name="vote_message_prompt" type="id" />
+    <item name="message_icon" type="id" />
+    <item name="message_prompt" type="id" />
+    <item name="right_button" type="id" />
+    <item name="divider" type="id" />
+    <item name="square_vote_history_image" type="id" />
+    <item name="square_vote_history_creative_time" type="id" />
+    <item name="square_vote_history_creative_title" type="id" />
+    <item name="square_vote_history_creative_image" type="id" />
+    <item name="share_button" type="id" />
+    <item name="share_image" type="id" />
+    <item name="share_title" type="id" />
+    <item name="share_list" type="id" />
+
+</resources>

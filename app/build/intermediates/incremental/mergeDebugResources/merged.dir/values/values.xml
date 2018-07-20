@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dates">
+        <item>01-01-11</item>
+        <item>02-01-11</item>
+        <item>03-01-11</item>
+        <item>04-01-11</item>
+        <item>05-01-11</item>
+        <item>06-01-11</item>
+        <item>07-01-11</item>
+        <item>08-01-11</item>
+        <item>09-01-11</item>
+        <item>10-01-11</item>
+        <item>11-01-11</item>
+        <item>12-01-11</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="green">#8aad47</color>
+    <color name="green1">#84b825</color>
+    <color name="idea_topbar_selected">#10bcec</color>
+    <color name="text_blue">#10549f</color>
+    <color name="text_grey">#797979</color>
+    <color name="text_red">#E3170D</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="adapterViewBackground"/><attr format="reference|color" name="headerBackground"/><attr format="color" name="headerTextColor"/><attr name="mode">
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+            <flag name="both" value="0x3"/>
+        </attr></declare-styleable>
+    <dimen name="creative_item_content_font_size">8dip</dimen>
+    <dimen name="creative_item_date_font_size">8dip</dimen>
+    <dimen name="creative_item_title_font_size">10dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+    <dimen name="good_spinner_jk">7dp</dimen>
+    <dimen name="idea_square_pointer_height">15dp</dimen>
+    <dimen name="popmenu_width">160.0sp</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+    <item name="arrow" type="id"/>
+    <item name="back" type="id"/>
+    <item name="back_right" type="id"/>
+    <item name="banner_image" type="id"/>
+    <item name="bottom_main_bg" type="id"/>
+    <item name="center_about_us_icon" type="id"/>
+    <item name="center_about_us_title" type="id"/>
+    <item name="center_app_update_icon" type="id"/>
+    <item name="center_app_update_title" type="id"/>
+    <item name="center_collect_content" type="id"/>
+    <item name="center_collect_date" type="id"/>
+    <item name="center_collect_image_list" type="id"/>
+    <item name="center_collect_item_image01" type="id"/>
+    <item name="center_collect_item_image02" type="id"/>
+    <item name="center_collect_item_image03" type="id"/>
+    <item name="center_collect_item_image04" type="id"/>
+    <item name="center_collect_list" type="id"/>
+    <item name="center_collect_vota" type="id"/>
+    <item name="center_collect_votable_text" type="id"/>
+    <item name="center_collect_vote" type="id"/>
+    <item name="center_collect_vote_image" type="id"/>
+    <item name="center_comment_content" type="id"/>
+    <item name="center_creative_image" type="id"/>
+    <item name="center_creative_time_title" type="id"/>
+    <item name="center_creative_title" type="id"/>
+    <item name="center_current_version" type="id"/>
+    <item name="center_favorite_image" type="id"/>
+    <item name="center_feedback_content" type="id"/>
+    <item name="center_idea_feedback_icon" type="id"/>
+    <item name="center_idea_feedback_title" type="id"/>
+    <item name="center_message_content" type="id"/>
+    <item name="center_message_img" type="id"/>
+    <item name="center_message_list" type="id"/>
+    <item name="center_message_time" type="id"/>
+    <item name="center_my_msg" type="id"/>
+    <item name="center_search_bar" type="id"/>
+    <item name="center_search_button" type="id"/>
+    <item name="center_search_edit" type="id"/>
+    <item name="center_user_exit_icon" type="id"/>
+    <item name="center_user_exit_title" type="id"/>
+    <item name="center_user_favorite_icon" type="id"/>
+    <item name="center_user_favorite_title" type="id"/>
+    <item name="center_user_idea_num" type="id"/>
+    <item name="center_user_idea_title" type="id"/>
+    <item name="center_user_image" type="id"/>
+    <item name="center_user_innovation_icon" type="id"/>
+    <item name="center_user_innovation_num" type="id"/>
+    <item name="center_user_innovation_title" type="id"/>
+    <item name="center_user_message" type="id"/>
+    <item name="center_user_message_icon" type="id"/>
+    <item name="center_user_message_title" type="id"/>
+    <item name="center_user_name" type="id"/>
+    <item name="center_user_point" type="id"/>
+    <item name="center_user_point_title" type="id"/>
+    <item name="center_user_setting_icon" type="id"/>
+    <item name="center_user_setting_title" type="id"/>
+    <item name="confirm_button" type="id"/>
+    <item name="creative_content" type="id"/>
+    <item name="creative_detail__replay_user_image" type="id"/>
+    <item name="creative_detail__replay_user_name" type="id"/>
+    <item name="creative_detail_content" type="id"/>
+    <item name="creative_detail_date" type="id"/>
+    <item name="creative_detail_favorite" type="id"/>
+    <item name="creative_detail_favorite_image" type="id"/>
+    <item name="creative_detail_favorite_text" type="id"/>
+    <item name="creative_detail_horilistview" type="id"/>
+    <item name="creative_detail_image" type="id"/>
+    <item name="creative_detail_list" type="id"/>
+    <item name="creative_detail_praise" type="id"/>
+    <item name="creative_detail_praise_image" type="id"/>
+    <item name="creative_detail_praise_text" type="id"/>
+    <item name="creative_detail_replay" type="id"/>
+    <item name="creative_detail_replay_content" type="id"/>
+    <item name="creative_detail_replay_image" type="id"/>
+    <item name="creative_detail_replay_text" type="id"/>
+    <item name="creative_detail_replay_time" type="id"/>
+    <item name="creative_detail_time_title" type="id"/>
+    <item name="creative_detail_title" type="id"/>
+    <item name="creative_detail_votable" type="id"/>
+    <item name="creative_detail_votable_text" type="id"/>
+    <item name="creative_detail_vote_bar" type="id"/>
+    <item name="creative_detail_vote_image" type="id"/>
+    <item name="creative_favorite_icon" type="id"/>
+    <item name="creative_item_image01" type="id"/>
+    <item name="creative_item_image02" type="id"/>
+    <item name="creative_item_image03" type="id"/>
+    <item name="creative_item_image04" type="id"/>
+    <item name="creative_praise_icon" type="id"/>
+    <item name="creative_replay_icon" type="id"/>
+    <item name="creative_thumb" type="id"/>
+    <item name="creative_thumb01" type="id"/>
+    <item name="creative_thumb02" type="id"/>
+    <item name="creative_thumb03" type="id"/>
+    <item name="creative_thumb04" type="id"/>
+    <item name="creative_title" type="id"/>
+    <item name="dialog_item" type="id"/>
+    <item name="dialog_title" type="id"/>
+    <item name="divider" type="id"/>
+    <item name="favorite_num" type="id"/>
+    <item name="feedback_title" type="id"/>
+    <item name="fragment_center_message_num" type="id"/>
+    <item name="fragment_innovation_new" type="id"/>
+    <item name="fragment_message_notification_num" type="id"/>
+    <item name="fragment_message_notification_text" type="id"/>
+    <item name="frame_layout_num" type="id"/>
+    <item name="history_vote_list" type="id"/>
+    <item name="innovation_top_title" type="id"/>
+    <item name="layout_bottom_main" type="id"/>
+    <item name="layout_bronze_ranking" type="id"/>
+    <item name="layout_broze_ranking" type="id"/>
+    <item name="layout_center_about_us" type="id"/>
+    <item name="layout_center_app_update" type="id"/>
+    <item name="layout_center_exit" type="id"/>
+    <item name="layout_center_favorite" type="id"/>
+    <item name="layout_center_feedback" type="id"/>
+    <item name="layout_center_message" type="id"/>
+    <item name="layout_center_my_info" type="id"/>
+    <item name="layout_center_my_innovation" type="id"/>
+    <item name="layout_center_setting" type="id"/>
+    <item name="layout_creative_detail" type="id"/>
+    <item name="layout_creative_detail_picture" type="id"/>
+    <item name="layout_creative_thumb" type="id"/>
+    <item name="layout_detail_favorite" type="id"/>
+    <item name="layout_detail_praise" type="id"/>
+    <item name="layout_detail_replay" type="id"/>
+    <item name="layout_detail_vote" type="id"/>
+    <item name="layout_favorite_icon" type="id"/>
+    <item name="layout_fragment_center_message_num" type="id"/>
+    <item name="layout_golden_ranking" type="id"/>
+    <item name="layout_innovation_second_left" type="id"/>
+    <item name="layout_innovation_second_right" type="id"/>
+    <item name="layout_login_button" type="id"/>
+    <item name="layout_login_password" type="id"/>
+    <item name="layout_login_username" type="id"/>
+    <item name="layout_no_ranking" type="id"/>
+    <item name="layout_praise_icon" type="id"/>
+    <item name="layout_ranking" type="id"/>
+    <item name="layout_ranking_button" type="id"/>
+    <item name="layout_ranking_title" type="id"/>
+    <item name="layout_replay_icon" type="id"/>
+    <item name="layout_replay_icon1" type="id"/>
+    <item name="layout_silver_ranking" type="id"/>
+    <item name="layout_square_icon" type="id"/>
+    <item name="layout_square_ranking_content" type="id"/>
+    <item name="layout_square_ranking_title" type="id"/>
+    <item name="layout_user_exit" type="id"/>
+    <item name="layout_user_favorite" type="id"/>
+    <item name="layout_user_info" type="id"/>
+    <item name="layout_user_message" type="id"/>
+    <item name="layout_user_setting" type="id"/>
+    <item name="left_corver" type="id"/>
+    <item name="list" type="id"/>
+    <item name="list_fragment1" type="id"/>
+    <item name="list_fragment2" type="id"/>
+    <item name="list_fragment3" type="id"/>
+    <item name="list_item_content" type="id"/>
+    <item name="list_item_image" type="id"/>
+    <item name="list_item_time" type="id"/>
+    <item name="list_item_title" type="id"/>
+    <item name="list_my_favorite" type="id"/>
+    <item name="list_my_innovation" type="id"/>
+    <item name="login_divider" type="id"/>
+    <item name="login_icon" type="id"/>
+    <item name="login_icon1" type="id"/>
+    <item name="login_logo" type="id"/>
+    <item name="menu_item_left_selected" type="id"/>
+    <item name="menu_item_left_selected_text" type="id"/>
+    <item name="menu_item_right_selected" type="id"/>
+    <item name="menu_item_right_selected_text" type="id"/>
+    <item name="message_icon" type="id"/>
+    <item name="message_prompt" type="id"/>
+    <item name="new_vote_list" type="id"/>
+    <item name="pop_list_view" type="id"/>
+    <item name="praise_num" type="id"/>
+    <item name="radio_group_original_button" type="id"/>
+    <item name="radio_group_public_button" type="id"/>
+    <item name="radio_left_button" type="id"/>
+    <item name="radio_no_original_button" type="id"/>
+    <item name="radio_no_public_button" type="id"/>
+    <item name="radio_original_button" type="id"/>
+    <item name="radio_public_button" type="id"/>
+    <item name="replay_num" type="id"/>
+    <item name="right_button" type="id"/>
+    <item name="select_title_bar" type="id"/>
+    <item name="share_button" type="id"/>
+    <item name="share_image" type="id"/>
+    <item name="share_list" type="id"/>
+    <item name="share_title" type="id"/>
+    <item name="show_selected_button" type="id"/>
+    <item name="square_bronze_icon" type="id"/>
+    <item name="square_bronze_time" type="id"/>
+    <item name="square_bronze_title" type="id"/>
+    <item name="square_broze_detail_check" type="id"/>
+    <item name="square_circle_icon" type="id"/>
+    <item name="square_creative_ranking_title" type="id"/>
+    <item name="square_date_text" type="id"/>
+    <item name="square_detail_check" type="id"/>
+    <item name="square_first_icon" type="id"/>
+    <item name="square_golden_cup" type="id"/>
+    <item name="square_golden_detail_check" type="id"/>
+    <item name="square_golden_no_text" type="id"/>
+    <item name="square_golden_time" type="id"/>
+    <item name="square_golden_title" type="id"/>
+    <item name="square_idea_more" type="id"/>
+    <item name="square_idea_title" type="id"/>
+    <item name="square_market_button" type="id"/>
+    <item name="square_no_other_text" type="id"/>
+    <item name="square_no_ranking_text" type="id"/>
+    <item name="square_other_button" type="id"/>
+    <item name="square_other_creative" type="id"/>
+    <item name="square_other_detail_check" type="id"/>
+    <item name="square_other_image" type="id"/>
+    <item name="square_other_list" type="id"/>
+    <item name="square_other_time" type="id"/>
+    <item name="square_other_title" type="id"/>
+    <item name="square_pack_button" type="id"/>
+    <item name="square_product_button" type="id"/>
+    <item name="square_ranking_title" type="id"/>
+    <item name="square_search_bar" type="id"/>
+    <item name="square_search_button" type="id"/>
+    <item name="square_search_edit" type="id"/>
+    <item name="square_silver_cup" type="id"/>
+    <item name="square_silver_detail_check" type="id"/>
+    <item name="square_silver_time" type="id"/>
+    <item name="square_silver_title" type="id"/>
+    <item name="square_technology_button" type="id"/>
+    <item name="square_title" type="id"/>
+    <item name="square_top_bar" type="id"/>
+    <item name="square_vote_button" type="id"/>
+    <item name="square_vote_creative_image" type="id"/>
+    <item name="square_vote_creative_time" type="id"/>
+    <item name="square_vote_creative_title" type="id"/>
+    <item name="square_vote_history_creative_image" type="id"/>
+    <item name="square_vote_history_creative_time" type="id"/>
+    <item name="square_vote_history_creative_title" type="id"/>
+    <item name="square_vote_history_image" type="id"/>
+    <item name="square_vote_image" type="id"/>
+    <item name="submit" type="id"/>
+    <item name="user_name" type="id"/>
+    <item name="user_password" type="id"/>
+    <item name="vote_favorite_button" type="id"/>
+    <item name="vote_message_prompt" type="id"/>
+    <item name="vote_praise_button" type="id"/>
+    <item name="vote_replay_button" type="id"/>
+    <item name="vote_voted_button" type="id"/>
+    <string name="Loading">正在加载</string>
+    <string name="about_us">关于我们</string>
+    <string name="about_us_content">中粮营养健康研究院是中粮集团深入贯彻落实中央建设创新型国家战略部署，
+   	     加快引进海外高层次人才，加大科技创新力度，打造具有国际水准的全产业链粮油食品企业而在北京未来科技城建设的世界一流的人才创新创业基地。
+     	   中粮营养健康研究院立足生命科学、致力营养健康，以客户为导向，科技支撑产业链、研发创新好产品，引领中国人的饮食生活方式，
+     	   最终达到促进全民健康，提高中国人寿命的目的。 
+        中粮营养健康研究院邀请国际著名建设设计公司进行设计，充分考虑了未来、营养、健康、绿色、低碳、人文、可持续发展以及研发人员实际需求等因素，使园区充满着生命元素，建成后的中粮营养健康研究院必将成为北京未来科技城内一个标志性的高端研发园区，凸显中粮集团未来研发创新的生机与活力。 中粮营养健康研究院以打造具有国际水准的全产业链粮油食品企业战略为指导，确立了“立足生命科学，致力营养健康；服务产业链，研发好产品”的使命和“创新超越客户诉求，科技引领健康中国”的愿景。 中粮营养健康研究院是中国人的生命科学研究院，必将推动全产业链战略实施和向关注消费者和客户需求的品牌食品企业转型，使中粮集团成为一个创新驱动型的公司。 创新超越客户诉求，科技引领健康中国！让我们翻开新的篇章，共同见证辉煌！</string>
+    <string name="addCreative">addCreative</string>
+    <string name="add_comment">commentAdd</string>
+    <string name="add_feedback"/>
+    <string name="app_host">http://192.168.2.123:8080</string>
+    <string name="app_name">中粮创意</string>
+    <string name="app_update">软件升级</string>
+    <string name="center_me">我</string>
+    <string name="collect_details">/main/getCreateInfo</string>
+    <string name="comment_delete">commentDelete</string>
+    <string name="comment_reply">commentReply</string>
+    <string name="creative_detail">创意详情</string>
+    <string name="creative_list">/main/getCreateList</string>
+    <string name="creative_square">creativeSquare</string>
+    <string name="current_version">当前版本:1.01</string>
+    <string name="date_detail">Date Detail</string>
+    <string name="delete_favorite">collectDelete</string>
+    <string name="delete_message">messageDelete</string>
+    <string name="do_collect">collectClick</string>
+    <string name="do_praise">praiseClick</string>
+    <string name="do_replay">praiseClick</string>
+    <string name="do_vote">voteClick</string>
+    <string name="douban">Douban</string>
+    <string name="email">Email</string>
+    <string name="evernote">Evernote</string>
+    <string name="facebook">Facebook</string>
+    <string name="favorite_text">收藏</string>
+    <string name="favorited">收藏成功</string>
+    <string name="favorited_text">您已收藏</string>
+    <string name="feedback">addFeedback</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="fragment1">Tab1</string>
+    <string name="fragment2">Tab2</string>
+    <string name="fragment3">Tab3</string>
+    <string name="get_banner">/image/getImages</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="home_title">首页</string>
+    <string name="idea_comment">评论</string>
+    <string name="idea_feedback">意见反馈</string>
+    <string name="idea_hint">描述你的创意吧...</string>
+    <string name="innovation_title">发创意</string>
+    <string name="kaixin">Kaixin</string>
+    <string name="keyword">请输入查询的关键字!</string>
+    <string name="linkedin">Linked in</string>
+    <string name="loading_more">正在加载更多...</string>
+    <string name="login">/user/loginbypwd.do</string>
+    <string name="message_list">/mess/getMessageByuid</string>
+    <string name="modify_thumb">updateMyPhoto</string>
+    <string name="more">更多</string>
+    <string name="my_collect">myCollect</string>
+    <string name="my_creative">myCreative</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="my_innovation">我的创意</string>
+    <string name="my_message">我的消息</string>
+    <string name="net_error">当前网络不可用，请先检查您的网络</string>
+    <string name="net_errors">请检查您的网络连接！</string>
+    <string name="neteasemicroblog">Netease Microblog</string>
+    <string name="praise_text">赞</string>
+    <string name="praised_text">您已赞过</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh…</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="ranking">ThatPast</string>
+    <string name="regist">regist</string>
+    <string name="renren">Renren</string>
+    <string name="replay_text"/>
+    <string name="replayed_text">您已评论过了</string>
+    <string name="search_hint">搜索热门分类</string>
+    <string name="set_date">Set Date</string>
+    <string name="share_message">欢迎使用中粮创意收集系统，点击以下链接，安装中粮创意app。期待您参与创意投递活动，激发创新的火花！</string>
+    <string name="shortmessage">Short Message</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_update_no">已经是最新版本!</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="sohumicroblog">Sohu Microblog</string>
+    <string name="sohusuishenkan">Sohu Suishenkan</string>
+    <string name="square_no_ranking_text">当前还没有排行榜啊!</string>
+    <string name="square_ranking_title">排行榜</string>
+    <string name="square_title">创意广场</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="twitter">Twitter</string>
+    <string name="un_votable">不可投票</string>
+    <string name="unvotable">此创意不在投票期间</string>
+    <string name="user_exit">退出登录</string>
+    <string name="user_setting">设置</string>
+    <string name="userinfo">userinfo</string>
+    <string name="username">username</string>
+    <string name="version_num">andriodVersionNumber</string>
+    <string name="votable_num">0</string>
+    <string name="votable_text">可投票</string>
+    <string name="vote_list">voteList</string>
+    <string name="vote_text">投票</string>
+    <string name="voted_text">已投票</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="youdao">Youdao</string>
+    <style name="AnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+	</style>
+    <style name="AnimFade" parent="@android:style/Animation.Activity">  
+    	<item name="android:activityOpenEnterAnimation">@anim/fade_in</item>  
+    	<item name="android:activityOpenExitAnimation">@anim/hold</item>        
+    	<item name="android:activityCloseEnterAnimation">@anim/fade_in</item>  
+    	<item name="android:activityCloseExitAnimation">@anim/fade_out</item> 
+	</style>
+    <style name="AnimHead" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/head_in</item>
+        <item name="android:windowExitAnimation">@anim/head_out</item>
+	</style>
+    <style name="AnimTop" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out</item>
+	</style>
+    <style name="AnimTop2" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+	</style>
+    <style name="Anim_style" parent="android:Theme.NoTitleBar.Fullscreen">         
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>       
+	</style>
+    <style name="Anim_style2" parent="android:Theme.NoTitleBar">         
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>       
+	</style>
+    <style name="Animation"/>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="HeadScale" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimHead</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+     </style>
+    <style name="MyDialogStyle" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->        
+     </style>
+    <style name="MyDialogStyleTop" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimTop2</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->        
+     </style>
+    <style name="MyProgressBar" parent="android:Widget.ProgressBar">         
+        <item name="android:indeterminateDrawable">@drawable/loading</item>     
+	</style>
+    <style name="Transparent">
+        <item name="android:windowBackground"> @color/transparent_background
+</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent
+</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@android:drawable/title_bar</item>
+    </style>
+    <style name="app_base_style" parent="android:Theme.NoTitleBar.Fullscreen">         
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>       
+	</style>
+    <style name="center_item_img" parent="@style/layout_wrap_wrap">
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="center_item_other" parent="@style/layout_wrap_wrap">
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="center_item_text" parent="@style/layout_wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="center_user_text" parent="@style/layout_wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="fill_fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="layout_fill_wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="layout_wrap_fill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="layout_wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="mydialog" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">#bbFFFF</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="mystyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>  //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>    //退出时的动画
+    </style>
+    <style name="share_dialog_style"/>
+</resources>

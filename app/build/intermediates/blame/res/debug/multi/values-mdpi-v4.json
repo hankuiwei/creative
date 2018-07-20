@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 330,
+                        "endColumn": 62,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 59,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 394,
+                        "endColumn": 59,
+                        "endOffset": 449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 61,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 455,
+                        "endColumn": 61,
+                        "endOffset": 512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 40,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 40,
+                        "endOffset": 324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 48,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endColumn": 48,
+                        "endOffset": 235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 330,
+                    "endColumn": 45,
+                    "endOffset": 371
+                },
+                "from": {
+                    "file": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 241,
+                        "endColumn": 45,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    }
+]

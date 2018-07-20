@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\banner.jpg",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\banner.jpg"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_public_selector.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\radio_public_selector.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_public_button_selector.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\radio_public_button_selector.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_original_button_selector.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\radio_original_button_selector.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_no_original_button_selector.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\radio_no_original_button_selector.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_original_selector.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\radio_original_selector.xml"
+    },
+    {
+        "merged": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radio_no_public_button_selector.xml",
+        "source": "F:\\Program Files\\feiq\\Recv Files\\creative\\app\\src\\main\\res\\drawable-hdpi\\radio_no_public_button_selector.xml"
+    }
+]

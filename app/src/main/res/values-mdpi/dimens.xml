@@ -1,0 +1,13 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="popmenu_width">160.0dip</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+    <dimen name="creative_item_content_font_size">8dip</dimen>
+    <dimen name="creative_item_date_font_size">8dip</dimen>
+    <dimen name="creative_item_title_font_size">10dip</dimen>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <com.cofco.view.BannerLayout
+        android:id="@+id/home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+         <ImageView
+            android:id="@id/banner_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/banner" /> 
+    </com.cofco.view.BannerLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_home"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg" >
+
+       <com.cofco.view.ScrollBackListView
+           android:id="@id/list"
+           style="@style/layout_fill_wrap"
+           android:fastScrollEnabled="false"
+           android:dividerHeight="1dp"
+           android:divider="@null"
+           android:listSelector="@drawable/list_selector"
+           android:cacheColorHint="@android:color/transparent"
+           android:layout_marginBottom="30dip" >
+       </com.cofco.view.ScrollBackListView>
+ 	<com.cofco.view.SlidButton
+            android:id="@+id/slide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="-100dip"
+            android:layout_alignParentRight="true"
+           	android:layout_gravity="right|top"
+            android:background="@drawable/sild_bg" />
+    </FrameLayout>
+
+</RelativeLayout>

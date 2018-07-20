@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#eee"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title" 
+  			android:background="@drawable/top_bar_square"
+  			android:gravity="center_horizontal|center_vertical"  >  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="@string/center_me"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" />       
+			</LinearLayout>
+		<ScrollView 
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:scrollbarStyle="outsideOverlay"   
+    		 >
+        	<LinearLayout
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical" >
+            	
+      				<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:gravity="center_vertical"
+            			android:layout_marginTop="10dip"
+            			android:clickable="true"
+            			android:layout_marginBottom="10dip"
+            			android:background="@drawable/preference_item" >
+            			<ImageView 
+            			    android:id="@id/center_user_image"
+            			    style="@style/layout_wrap_wrap"
+            			    android:layout_marginTop="10dip"
+            			    android:adjustViewBounds="true"
+            			    android:layout_marginLeft="10dip"
+            			    android:layout_marginBottom="10dip"
+            			    android:src="@drawable/user_img"
+            			    />
+            			<TextView
+            			    android:id="@id/center_user_name"
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+        					android:layout_toRightOf="@id/center_user_image"
+        					android:padding="4dp" 
+        					android:layout_marginTop="10dip"
+        					android:layout_marginLeft="4dip"
+        					android:text="zoom"
+        					android:textSize="17sp"		
+							android:textColor="@color/black" />      
+            			<TextView
+            			    android:id="@id/center_user_point_title"
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+        					android:layout_below="@id/center_user_name"
+        					android:layout_toRightOf="@id/center_user_image"
+        					android:padding="4dip" 
+        					android:layout_marginLeft="4dip"
+        					android:text="积分 :"
+        					android:textSize="14sp"		
+        					android:textColor="@color/text_grey"
+							/>      
+            			<TextView
+            			      android:id="@id/center_user_point"
+        					style="@style/center_user_text"
+        					android:layout_toRightOf="@id/center_user_point_title"
+        					android:layout_below="@id/center_user_name"
+        					android:padding="4dp" 
+        					android:text="14分"
+							 />      
+            			<TextView
+            				
+            			    android:id="@id/center_user_idea_title"
+        					style="@style/center_user_text"
+        					android:layout_below="@id/center_user_name"
+        					android:layout_toRightOf="@id/center_user_point"
+        					android:padding="4dp" 
+        					android:layout_marginLeft="20dip"
+        					android:text="创意:"
+						/>      
+            			<TextView
+            			      android:id="@id/center_user_idea_num"
+        					style="@style/center_user_text"
+        					android:layout_toRightOf="@id/center_user_idea_title"
+        					android:layout_below="@id/center_user_name"
+        					android:text="23个"
+        					android:padding="4dp" 
+							 />      
+						<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:src="@drawable/square_arrow" /> 					
+      				</RelativeLayout>
+            	
+      				<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+            			android:padding="8dip"
+            			android:background="@drawable/preference_first_item" >
+						<ImageView
+						    android:id="@id/center_user_favorite_icon"
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"
+        					android:scaleType="matrix"
+        					style="@style/center_item_img"
+        					android:src="@drawable/center_favorite" /> 	
+            			<TextView
+            			    android:id="@id/center_user_favorite_title"
+            			    style="@style/center_item_other"
+        					android:layout_toRightOf="@id/center_user_favorite_icon"
+        					android:text="@string/my_favorite"
+						/>      
+						<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:layout_marginRight="10dip"
+        					android:src="@drawable/square_arrow" /> 					
+      				</RelativeLayout>
+      				<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+            				android:padding="8dip"
+            			android:background="@drawable/preference_item" >
+						<ImageView
+						    android:id="@id/center_user_message_icon"
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					style="@style/center_item_img"
+        					android:src="@drawable/center_message" /> 
+            			<TextView
+            			    android:id="@id/center_user_message_title"
+            			    android:layout_toRightOf="@id/center_user_message_icon"
+            			    style="@style/center_item_other"
+        					android:text="@string/my_message"
+						 />      
+						<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:layout_marginRight="10dip"
+        					android:src="@drawable/square_arrow" /> 					
+      				</RelativeLayout>
+      				<RelativeLayout
+            			android:layout_width="fill_parent"
+            			android:layout_height="wrap_content"
+            			android:gravity="center_vertical"
+            			android:clickable="true"
+            			android:padding="8dip"
+            			android:background="@drawable/preference_last_item" >
+							<ImageView
+							 android:id="@id/center_user_innovation_icon"
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					style="@style/center_item_img"
+        					android:src="@drawable/center_innovation" />      
+            			<TextView
+            			     android:id="@id/center_user_innovation_title"
+        					android:layout_toRightOf="@id/center_user_innovation_icon"
+        					style="@style/center_item_other"
+        					android:text="@string/my_innovation"
+							 /> 
+						<ImageView
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"        	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        						android:layout_marginRight="10dip"
+        					android:src="@drawable/square_arrow" />      					
+      				</RelativeLayout>
+      				
+      			
+        	
+        	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

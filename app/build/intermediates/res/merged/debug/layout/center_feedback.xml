@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/top_bar_square"
+        >
+		<ImageView 
+		    android:layout_alignParentLeft="true"
+		    style="@style/layout_wrap_wrap"
+		    android:id="@id/back"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/back"
+		    android:layout_marginLeft="10dip"
+		    />
+        <TextView
+            android:id="@id/feedback_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/idea_feedback"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@id/submit"
+            style="@style/layout_wrap_wrap"
+            android:layout_marginRight="8dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/flight"
+            android:textColor="@color/text_white"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="8dip"
+        android:alpha="0.7"
+        android:layout_weight="1"
+        android:background="@drawable/white_bg">
+
+        <EditText
+            android:id="@id/center_feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|left"
+            android:background="@color/text_white"
+            android:alpha="0.8"
+            android:paddingLeft="8dip"
+            android:paddingTop="8dip"
+            android:textAlignment="textStart"
+            android:hint="请输入：" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+</LinearLayout>
